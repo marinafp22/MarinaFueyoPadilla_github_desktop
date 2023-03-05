@@ -34,9 +34,6 @@ public class Principal {
 				System.out.print("Apellidos: ");
 				usuario.setApellidos(teclado.nextLine());
 				
-				System.out.print("Edad: ");
-				usuario.setEdad(teclado.nextDouble());
-				
 			}
 			
 			else

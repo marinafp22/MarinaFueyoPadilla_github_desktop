@@ -3,14 +3,12 @@ package ppGitHubDesktop;
 public class Usuario {
 	
 	String DNI, nombre, apellidos;
-	double edad;
 
-	public Usuario(String dNI, String nombre, String apellidos, double edad) {
+	public Usuario(String dNI, String nombre, String apellidos) {
 		super();
 		DNI = dNI;
 		this.nombre = nombre;
 		this.apellidos = apellidos;
-		this.edad = edad;
 	}
 
 	public Usuario() {
@@ -39,14 +37,6 @@ public class Usuario {
 
 	public void setApellidos(String apellidos) {
 		this.apellidos = apellidos;
-	}
-
-	public double getEdad() {
-		return edad;
-	}
-
-	public void setEdad(double edad) {
-		this.edad = edad;
 	}
 
 }
